@@ -1,6 +1,6 @@
-# sippi
+# Snippi
 
-> Sippi - Manage your snippets
+> Snippi - Manage your snippets
 
 ## Build Setup
 
