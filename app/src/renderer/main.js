@@ -1,16 +1,16 @@
 import Vue from 'vue'
 import Electron from 'vue-electron'
 import Router from 'vue-router'
+import VueCodeMirror from 'vue-codemirror'
 
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-default/index.css'
+import 'photonkit/dist/css/photon.css'
 
 import App from './App'
 import routes from './routes'
 
-Vue.use(ElementUI)
 Vue.use(Electron)
 Vue.use(Router)
+Vue.use(VueCodeMirror)
 Vue.config.debug = true
 
 const router = new Router({

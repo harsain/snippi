@@ -1,5 +1,32 @@
 <template>
-  <div id="toolbar">
+  <nav class="nav-group">
+    <h5 class="nav-group-title">Main</h5>
+    <a class="nav-group-item active">
+      <span class="icon icon-home"></span>
+      Home
+    </a>
+    <span class="nav-group-item">
+      <span class="icon icon-download"></span>
+      Downloads
+    </span>
+    <span class="nav-group-item">
+      <span class="icon icon-folder"></span>
+      Documents
+    </span>
+    <span class="nav-group-item">
+      <span class="icon icon-signal"></span>
+      AirPlay
+    </span>
+    <span class="nav-group-item">
+      <span class="icon icon-print"></span>
+      Applications
+    </span>
+    <span class="nav-group-item">
+      <span class="icon icon-cloud"></span>
+      Desktop
+    </span>
+  </nav>
+  <!--<div id="toolbar">
     <el-menu default-active="1" class="el-menu-vertical-demo" theme="dark">
       <el-menu-item index="1">
         <el-button type="text" icon="document">All</el-button>
@@ -14,7 +41,7 @@
         <el-button type="text" icon="minus">Delete</el-button>
       </el-menu-item>
     </el-menu>
-  </div>
+  </div>-->
 </template>
 
 <style lang="scss">
